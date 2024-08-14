@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Moon</title>
+ <style>
+ canvas{display: block;border:1px dotted skyblue;}
+ </style>
+ </head>
+ <body>
+<canvas id="moon" width="500" height="400"></canvas>
+<script>
+var nimo = {};
+window.onload = function () 
+{
+    nimo.canvas = document.getElementById('moon');
+    nimo.context = nimo.canvas.getContext('2d');
+
+    //Drawing the contour of the moon
+    nimo.context.beginPath();
+    nimo.context.arc(200, 200, 50, 1.5 * Math.PI, 0.5 * Math.PI);
+    nimo.context.moveTo(200,150);
+//    nimo.context.quadraticCurveTo(250,200,200,250);
+    nimo.context.bezierCurveTo(240, 175, 240, 225, 200, 250);
+    //Fill the moon contour and projection
+    nimo.context.strokeStyle = "Gray";
+    nimo.context.stroke();
+//    nimo.context.closePath();
+    //Fill the radial gradient to the moon
+
+    nimo.context.fillStyle = "LightGray";
+    nimo.context.fill()
+}
+</script>
+</body>
+</html>

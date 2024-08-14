@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>14.08.2024 11:42:14</time>
+    <temp_ext>27.6</temp_ext>
+    <temp_int>28.1</temp_int>
+	<heat_index>28.5</heat_index>
+	<temp_trend_60m>1</temp_trend_60m>
+    <hum>56</hum>
+	<hum_trend_60m>-1</hum_trend_60m>
+	<pres>1010.1</pres>
+	<pres_trend_60m>0</pres_trend_60m>
+	<wind_dir>12</wind_dir>
+	<wind_speed>1.4</wind_speed>
+	<wind_gust>1.4</wind_gust>
+	<uv_index>3.5</uv_index>
+	<solar_rad>916.0</solar_rad>
+	<hourly_rain>0.00</hourly_rain>
+	<daily_rain>0.00</daily_rain>
+	<forecast>2</forecast>
+	<luna>2</luna>
+	<temp_max_24h>32.3</temp_max_24h>
+	<temp_min_24h>23.7</temp_min_24h>
+	<wind_chill>27.6</wind_chill>
+	<sunrise>07:00</sunrise>
+	<sunset>20:52</sunset>
+	<day_length>13:52</day_length>
+	<rain_rate>0.0</rain_rate>
+</root>
+

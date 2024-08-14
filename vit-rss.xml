@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+  <channel>
+     <title>VIT Meteo Sarri&#224; (Barcelona)</title>
+     <link>http://www.tervingo.com/meteo/vit-rss.xml</link>
+     <description>Datos de la estación VIT de Sarri&#224; - Barcelona</description>
+     <item>
+       <title>Datos</title>
+       <link>http://www.tervingo.com/meteo</link>
+       <description>
+			<updated>14.08.2024 - 11:40:41</updated>
+            <tempAct>27.5</tempAct>
+            <humAct>55</humAct>
+            <tempInAct>28.1</tempInAct>
+            <humInAct>53</humInAct>
+            <presAct>1010.2</presAct>
+            <vientAct>1.4 - 345 (NNW)</vientAct>
+            <precHoy>0.00</precHoy>
+			<tempMax>27.4º (11:36)</tempMax>
+			<tempMin>23.7º (06:54)</tempMin>
+      </description>
+    </item>
+  </channel>
+</rss>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>31.12.2015 00:21:17</time>
+    <temp_max>34.3</temp_max>
+    <temp_max_time>20150705123440</temp_max_time>
+    <temp_min>1.2</temp_min>
+    <temp_min_time>20150206080811</temp_min_time>
+	<pres_max>1044.0</pres_max>
+	<pres_max_time>20150109084301</pres_max_time>
+	<pres_min>987.0</pres_min>
+	<pres_min_time>20150131050501</pres_min_time>
+	<wind_gust_max_speed>95.0</wind_gust_max_speed>
+	<wind_gust_max_dir>45</wind_gust_max_dir>
+	<wind_gust_max_time>20150225021742</wind_gust_max_time>
+	<solar_rad_max>1329</solar_rad_max>
+	<solar_rad_max_time>20150815134037</solar_rad_max_time>
+	<yearly_rain>277.20</yearly_rain>
+</root>
+

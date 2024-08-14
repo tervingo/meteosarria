@@ -1,0 +1,491 @@
+/* vit-meteo.css: 6.3.09 */
+
+/* tipografía */
+
+body {
+   margin: 0px;
+   padding: 0px;
+   font-family: verdana, sans-serif;
+   font-size: 10px;
+   color: #333;
+   background-color: #ccc;
+   }
+
+h1 {
+   color: #039;
+   font-size: 25px;
+   }
+   
+h2 {
+   color: #060;
+   font-size: 20px;
+   }
+
+h3 {
+   color: #333;
+}
+   
+h4 {
+   color: #f60;
+   font-weight: bold 
+   }
+
+a {
+   text-decoration: none;
+   font-weight: bold;
+   color: #fff;
+   }
+   
+ul {
+   list-style-type: square;
+   }  
+   
+a:link {
+   text-decoration: none;
+   }
+   
+a:hover {
+   color: #6ff;
+}
+
+div.mapa a {
+   color: #039;
+   }
+div.mapa a:hover {
+   color: #060;
+   }
+   
+table,td,th{
+   border:none;
+   border-collapse:collapse;
+   margin:0;
+   padding:0;
+}
+
+table{
+   border:none;
+   width: 630px;
+   color: #333;
+   margin-left:60px;
+}
+td {
+   padding:.2em .5em;
+   vertical-align:top;
+   font-weight:normal;
+   font-size: 9px;
+}
+th {
+   padding:.2em .5em;
+   vertical-align:top;
+   font-weight:bold;
+   font-size: 9px;
+}
+thead th{
+   font-weight:bold;
+   font-size:11px;
+   vertical-align:bottom;
+   border-top:1px solid #666;
+   border-left:1px solid #666;
+   border-right:1px solid #666;
+   border-bottom:1px solid #666;
+   padding-top:10px;
+   margin-bottom:5px;
+   padding-bottom:10px;
+   background-color: #999;
+}
+tbody th,td{
+   border-right:1px solid #666;
+   border-bottom:1px solid #666;
+}
+
+tbody td,tbody th{
+   padding:7px 10px;
+}
+tbody th{
+   border-left:1px solid #666;
+}
+tfoot td,tfoot th{
+   margin-top:5px;
+   border:none;
+   border-top:1px solid #666;
+}
+caption{
+   text-align:left;
+   font-size:120%;
+   font-weight:bold;
+   margin:5px;
+}
+
+.seccion {
+   color: #039;
+   font-family: verdana, sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 3;
+   padding-left:10px;
+   }
+
+.seleccionado {
+   color: #09f;
+   font-weight: bold;
+   }
+   
+.table_titles {
+   color: #666;
+   font-size: 11px;
+   font-weight: bold;
+}
+.coordenadas {
+   color: #333;
+   font-size: 11px;
+   font-weight: bold;
+   text-align:center;
+   }
+
+.lexico {
+   color: #333;
+   font-size: 12px;
+   }
+.datos {
+/* color: #336; */
+    color: #fff;
+   font-size: 11px;
+   }
+
+.titulo_enlaces {
+   font-size: 13px;
+   color: #6f0;
+   font-weight: bold;
+   line-height: 3;
+   }
+   
+.titulo_destacados {
+   font-size: 14px;
+   color: #ff0;
+   font-weight: bold;
+   line-height: 3;
+   }
+   
+.mapa {
+   font-size: 10px;
+   line-height: 2;
+   text-align: center;
+   }
+.pastilla {
+    width: 180px;
+   }
+
+div.pastilla a {
+   color: #039;
+   }
+div.pastilla a:link {
+   color: #039;
+   }
+div.pastilla a:hover {
+   color: #060;
+   }
+
+derecha a {
+   color: #039;
+   }
+derecha a:link {
+   color: #039;
+   }
+derecha a:hover {
+   color: #060;
+   }
+
+.mtgram {
+   width:1100px;
+   }
+
+div.mtgram table {
+   border:none;
+   width: 1100px;
+   color: #333;
+   margin-left:40px;
+}
+div.mtgram td {
+   padding:.2em .5em;
+   vertical-align:top;
+   font-weight:normal;
+   font-size: 9px;
+}
+
+div.mtgram thead th{
+   font-weight:bold;
+   font-size:16px;
+   color: #039;
+   vertical-align:bottom;
+   border-top:1px solid #666;
+   border-left:1px solid #666;
+   border-right:1px solid #666;
+   border-bottom:1px solid #666;
+   padding-top:10px;
+   margin-bottom:5px;
+   padding-bottom:10px;
+   background-color: #999;
+}
+div.mtgram tbody th,td{
+   border-right:1px solid #666;
+   border-left:1px solid #666;
+   border-bottom:1px solid #666;
+}
+
+div.mtgram tbody td,tbody th{
+   padding:7px 10px;
+}
+
+div.mtgram tbody th{
+   border-left:1px solid #666;
+   line-height:1.5;
+   padding:.2em .5em;
+   vertical-align:top;
+   font-weight:bold;
+   font-size: 14px;
+   color:#060;
+   }
+   
+div.mtgram tfoot td,tfoot th{
+   margin-top:5px;
+   border:none;
+   border-top:1px solid #666;
+}
+
+#enlace-mtgrm a {
+   text-decoration: none;
+   font-weight: bold;
+   color: #333;
+   }
+
+#enlace-mtgrm a:hover {
+   color: #060;
+   }
+   
+#enlace-in a {
+   text-decoration: none;
+   font-weight: bold;
+   color: #ccc;
+   }
+
+#enlace-in a:hover {
+   color: #060;
+   }
+#meteograma td {
+   color: #039;
+   font-weight: bold;
+   text-align:center;
+   font-size: 11px;
+   }
+
+/* layout */
+
+#enlace {
+   position: relative;
+   font-size: 10px;
+   line-height: 2;
+   color:#000;
+/* border-bottom: 1px solid #999; */
+   }
+
+#enlace-in {
+   position: relative;
+   font-size: 10px;
+   line-height: 2;
+   color:#ccc;
+/* border-bottom: 1px solid #999; */
+   }  
+   
+#enlace-mtgrm {
+   position: relative;
+   font-size: 10px;
+   line-height: 2;
+   color:#999;
+/* border-bottom: 1px solid #999; */
+   }
+   
+#arriba {
+   margin: 5px;
+   padding: 10px;
+/* border-bottom: 1px solid #999; */
+   height: 130px;
+   width: 1050px;
+   color: #999;
+   }
+
+#menu_arriba {
+   position: relative;
+   bottom: 5px;
+/* border: 1px solid #666; */
+   width: 70%;
+   color: #369;
+   margin-rigth: auto;
+   margin-left:auto;
+   line-height: 1.7;
+   }
+   
+#cortesia {
+   position: absolute;
+   top: 220px;
+   font-size: 9px;
+   color:#666;
+   width: 250px;
+   margin-left:10px;
+   }
+
+#izquierda {
+   position: absolute;
+   float: left;
+   top: 235px;
+   left: 0px;
+   height: 5000px;
+   font-size: 12px;
+   margin: 5px;
+   padding: 10px;
+   width: 160px;
+   background-color:#666;
+   border-right: 1px solid #999;
+   }
+
+#derecha {
+   position: absolute;
+/* float: left; */
+   top: 200px;
+   left: 900px;
+   height:5000px;
+/* color: #666;  */
+   font-size: 12px;
+   margin: 5px;
+   padding: 10px;
+   padding-top:0;
+/* border-left: 1px solid #999; */
+   }
+
+
+#tabla {
+   position: relative;
+   margin: 0px 10px 5px 200px;
+   padding: 10px;
+   color: #999;
+   width: 900px;
+   border-left: 1px solid #999;
+   }
+#centro {
+   position: relative;
+   margin: 0px 10px 5px 180px;
+   padding: 10px;
+   color: #999;
+   width:720px;
+   }
+   
+#meteograma {
+   position: absolute;
+   top:235px;
+   color: #999;
+   width:1100px;
+   }  
+   
+#pie {
+   position: relative;
+   width: 700px;
+   left: 300px;
+   padding: 10px;
+   color: #999;
+   border-top: 1px solid #999;
+   top: 162px;
+
+}
+
+#logo-izq {
+   position: absolute;
+   top: 20px;
+   left: 10px;
+   }
+
+#logo-der {
+   position: absolute;
+   top: 20px;
+   left: 900px;
+   }
+   
+#verso_izq {
+   position: relative;
+   top: 10px;
+   left: 30px;
+   width: 300px;
+   border-right: 1px solid #999;
+   }  
+#verso_der {
+   position: relative;
+   top: 10px;
+   left: 400px;
+   width: 300px;
+   padding: 20px;
+   border-left: 1px solid #999;
+   }  
+#texto {
+   position: relative;
+   top: 10 px;
+   left: 30 px;
+   width: 650px;
+   font-size: 11px;
+   line-height: 1.5;
+   color: #333;
+   }
+#notapie {
+    color: #999;
+   font-size: 10px;
+   width:600px;
+}
+#datos-cabecera {
+   position:absolute;
+   width: 170px;
+   height: 30px;
+   text-align: center;
+   top:25px;
+   left: 700px;
+   font-size: 24px;
+   color: #000;
+   background-color: #999;
+   border: 1px solid #333;
+   }
+
+#datos-cabecera-in {
+   position:absolute;
+   width: 250px;
+   height: 50px;
+   text-align: center;
+   top:170px;
+   left: 400px;
+   font-size: 28px;
+   color: #000;
+   background-color: #999;
+   border: 1px solid #333;
+   }
+
+
+#fechaHora-cabecera {
+   position:absolute;
+   width: 110px;
+   height: 38px;
+   text-align: center;
+   top:25px;
+   left: 270px;
+   font-size: 16px;
+   color: #000;
+   background-color: #999;
+   border: 1px solid #333;
+   }
+
+#datos-vidget {
+   position:absolute;
+   width: 600px;
+   height: 100px;
+   text-align: center;
+   top:0px;
+   left: 0px;
+   font-size: 78px;
+   color: #000;
+   background-color: #999;
+   border: 1px solid #333;
+   }

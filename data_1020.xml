@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>14.08.2024 10:20:58</time>
+    <temp>25.3</temp>
+    <hum>64</hum>
+	<pres>1009.5</pres>
+	<wind_dir>0</wind_dir>
+	<wind_speed>4.7</wind_speed>
+	<wind_gust>0.0</wind_gust>
+	<uv_index>1.7</uv_index>
+	<solar_rad>777.0</solar_rad>
+	<hourly_rain>0.00</hourly_rain>
+	<daily_rain>0.00</daily_rain>
+	<wind_chill>25.3</wind_chill>
+</root>
+

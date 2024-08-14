@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>30.04.2024 20:07:21</time>
+    <temp_max>27.7</temp_max>
+    <temp_max_time>20240414171724</temp_max_time>
+    <temp_min>7.4</temp_min>
+    <temp_min_time>20240424074532</temp_min_time>
+	<pres_max>1029.6</pres_max>
+	<pres_max_time>20240412111012</pres_max_time>
+	<pres_min>998.8</pres_min>
+	<pres_min_time>20240401000314</pres_min_time>
+	<wind_gust_max_speed>53.3</wind_gust_max_speed>
+	<wind_gust_max_dir>10</wind_gust_max_dir>
+	<wind_gust_max_time>20240409010051</wind_gust_max_time>
+	<solar_rad_max>1404</solar_rad_max>
+	<solar_rad_max_time>20240417121601</solar_rad_max_time>
+	<monthly_rain>0.80</monthly_rain>
+</root>
+

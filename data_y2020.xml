@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>31.12.2020 00:21:17</time>
+    <temp_max>33.9</temp_max>
+    <temp_max_time>20200801164639</temp_max_time>
+    <temp_min>3.4</temp_min>
+    <temp_min_time>20201227073829</temp_min_time>
+	<pres_max>1032.9</pres_max>
+	<pres_max_time>20200222211438</pres_max_time>
+	<pres_min>987.4</pres_min>
+	<pres_min_time>20201002141146</pres_min_time>
+	<wind_gust_max_speed>62.6</wind_gust_max_speed>
+	<wind_gust_max_dir>249</wind_gust_max_dir>
+	<wind_gust_max_time>20201003121414</wind_gust_max_time>
+	<solar_rad_max>1440</solar_rad_max>
+	<solar_rad_max_time>20200515143824</solar_rad_max_time>
+	<yearly_rain>203.20</yearly_rain>
+</root>
+

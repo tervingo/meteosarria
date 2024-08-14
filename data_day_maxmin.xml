@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>14.08.2024 11:41:29</time>
+    <temp_max>27.4</temp_max>
+    <temp_max_time>20240814113645</temp_max_time>
+    <temp_min>23.7</temp_min>
+    <temp_min_time>20240814065423</temp_min_time>
+    <hum_max>74.0</hum_max>
+    <hum_max_time>20240814044318</hum_max_time>
+    <hum_min>55.0</hum_min>
+    <hum_min_time>20240814113735</hum_min_time>
+    <pres_max>1010.1</pres_max>
+    <pres_max_time>20240814113559</pres_max_time>
+    <pres_min>1007.7</pres_min>
+    <pres_min_time>20240814000100</pres_min_time>
+</root>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <time>31.12.2022 00:21:17</time>
+    <temp_max>35.2</temp_max>
+    <temp_max_time>20220814150535</temp_max_time>
+    <temp_min>2.6</temp_min>
+    <temp_min_time>20220122084445</temp_min_time>
+	<pres_max>1033.9</pres_max>
+	<pres_max_time>20220113200435</pres_max_time>
+	<pres_min>994.1</pres_min>
+	<pres_min_time>20221215083025</pres_min_time>
+	<wind_gust_max_speed>65.9</wind_gust_max_speed>
+	<wind_gust_max_dir>297</wind_gust_max_dir>
+	<wind_gust_max_time>20220424044615</wind_gust_max_time>
+	<solar_rad_max>1357</solar_rad_max>
+	<solar_rad_max_time>20220508131149</solar_rad_max_time>
+	<yearly_rain>31.60</yearly_rain>
+</root>
+
